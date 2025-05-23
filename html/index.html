@@ -15,10 +15,10 @@
             <h1>Lopper</h1>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Work</li>
-                    <li>About</li>
+                    <li><a href="" id="active">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">About</a></li>
                 </ul>
             </nav>
             <div class="header_phonenum">
@@ -39,18 +39,23 @@
 
             <aside class="side_scroll">
                 <span>Scroll to see more</span>
-                <button><img src="/assets/images/index/Arrow_down.svg" alt=""></button>
+                <button><svg width="8" height="28" viewBox="0 0 8 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.64645 27.3536C3.84171 27.5488 4.15829 27.5488 4.35355 27.3536L7.53553 24.1716C7.7308 23.9763 7.7308 23.6597 7.53553 23.4645C7.34027 23.2692 7.02369 23.2692 6.82843 23.4645L4 26.2929L1.17157 23.4645C0.976311 23.2692 0.659728 23.2692 0.464466 23.4645C0.269204 23.6597 0.269204 23.9763 0.464466 24.1716L3.64645 27.3536ZM3.5 0L3.5 27H4.5L4.5 0L3.5 0Z" fill="#FCFCFC"/>
+                    </svg></button>
             </aside>
         </section>
         <div class="Subheader">
             <span>Velit laoreet id donec ultrices. Ut lectus arcu bibendum varius.</span>
-            <button><img src="/assets/images/index/Arrow_right.svg" alt=""></button>
+            <button><svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z" fill="#FCFCFC"/>
+                </svg>
+                </button>
         </div>
     </header>
 
     <!-- Main -->
 <main>
-    <section class="Intro">
+    <section id="Intro">
         <div>
             <span class="section-label">Intro</span>
             <h3 class="section-caption">What we do</h3>
@@ -83,146 +88,181 @@
         </div>
     </section>
 
-    <section class="Features">
+    <section id="Features">
         <span class="section-label">What we do</span>
-        <h3>Make it easy with us</h3>
-        <div>
+        <h3 class="section-caption">Make it easy with us</h3>
+        <div id="Features_content">
             <div>
-                <article>
-                    <h4></h4>
-                    <p></p>
+                <article class="Features_block" id="first_Features_block">
+                    <h4>We build great 
+                    <br>business</h4>
+                    <p>Id consectetur purus ut faucibus pulvinar 
+                    <br>elementum integer enim. A arcu cursus 
+                    <br>vitae congue mauris rhoncus aenean.</p>
                 </article>
-                <article>
-                    <h4></h4>
-                    <p></p>
+                <article class="Features_block" id="second_Features_block">
+                    <h4>We build great 
+                    <br>business</h4>
+                    <p>Id consectetur purus ut faucibus pulvinar 
+                    <br>elementum integer enim. A arcu cursus 
+                    <br>vitae congue mauris rhoncus aenean.</p>
                 </article>
-                <article>
-                    <h4></h4>
-                    <p></p>
+                <article class="Features_block" id="third_Features_block">
+                    <h4>We build great 
+                    <br>business</h4>
+                    <p>Id consectetur purus ut faucibus pulvinar 
+                    <br>elementum integer enim. A arcu cursus 
+                    <br>vitae congue mauris rhoncus aenean.</p>
                 </article>
             </div>
-            <img src="" alt="">
+            <div class="overlayed-image"></div>
         </div>
     </section>
 
-    <section class="Numbers">
+    <section id="Numbers">
         <span class="section-label">What we do</span>
-        <h3>What we  do more than you can 
-            imangine, belive us.</h3>
-        <div>
-            <article>
-                <h1></h1>
-                <p></p>
+        <h3 class="section-caption">What we  do more than you can 
+        <br>imangine, belive us.</h3>
+        <div id="Numbers_blocks">
+            <article class="Numbers_block" id="first_Numbers_block">
+                <h1>15+</h1>
+                <p>Nobel prizes</p>
             </article>
-            <article>
-                <h1></h1>
-                <p></p>
+            <article class="Numbers_block" id="second_Numbers_block">
+                <h1>33</h1>
+                <p>Nobel prizes</p>
             </article>
-            <article>
-                <h1></h1>
-                <p></p>
+            <article class="Numbers_block" id="third_Numbers_block">
+                <h1>12</h1>
+                <p>Nobel prizes</p>
             </article>
         </div>
     </section>
 
-    <section class="Logos">
-        <h5>Our Clients</h5>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+    <section id="Logos">
+        <div id="Logos_content">
+            <h5>Our Clients</h5>
+            <div id="clients">
+                <img src="/assets/images/index/FirClient.png" alt="">
+                <img src="/assets/images/index/SecClient.png" alt="">
+                <img src="/assets/images/index/SecClient.png" alt="">
 
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-    </section>
-
-    <section class="Testimonials">
-        <div class="manyimages">
-            <img src="" alt="">
-            <img src="" alt="">
-            <div class="Faces">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="/assets/images/index/FirClient.png" alt="">
+                <img src="/assets/images/index/FirClient.png" alt="">
+                <img src="/assets/images/index/SecClient.png" alt="">
             </div>
         </div>
+    </section>
+
+    <section id="Testimonials">
+        <div id="manyimages">
+            <div id="First_faces">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_1.png" alt="" id="face1">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_2.png" alt="" id="face2">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_3.png" alt="" id="face3">
+            </div>
+            <div id="mainimage">
+                <img src="/assets/images/index/Testimonials/PhoneGirl.png" alt="" id="phoneGirl">
+                <img src="/assets/images/index/Testimonials/quote.png" alt="" id="quote">
+            </div>
+            <div id="Second_faces">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_4.png" alt="" id="face4">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_5.png" alt="" id="face5">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_6.png" alt="" id="face6">
+                <img src="/assets/images/index/Testimonials/Faces/Ellipse_7.png" alt="" id="face7">
+            </div>
+        </div>    
 
         <div class="Testimonials_info">
-            <img src="" alt="">
+            <button class="simple_btn" disabled ><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.396446 3.64645C0.201184 3.84171 0.201184 4.15829 0.396446 4.35355L3.57843 7.53553C3.77369 7.7308 4.09027 7.7308 4.28553 7.53553C4.4808 7.34027 4.4808 7.02369 4.28553 6.82843L1.45711 4L4.28553 1.17157C4.4808 0.976311 4.4808 0.659728 4.28553 0.464466C4.09027 0.269204 3.77369 0.269204 3.57843 0.464466L0.396446 3.64645ZM11.25 3.5H0.75V4.5H11.25V3.5Z"/>
+                </svg>
+                </button>
             <div class="Testimonials_info_text">
-                <p></p>
-                <p></p>
+                <p>Lectus arcu bibendum at varius. Adipiscing 
+                <br>diam donec adipiscing tristique.</p>
+                <h4><span>Kerry Johnes</span> - Some Company</h4>
             </div>
-            <img src="" alt="">
+            <button class="simple_btn"><svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z"/>
+                </svg>
+                </button>
         </div>
 
     </section>
 
-    <section class="Newsletter">
-        <h3>Subscribe to our newsletter</h3>
-        <p></p>
-        <form action=""><textarea name="" id=""></textarea></form>
+    <section id="Newsletter">
+        <h3 class="section-caption">Subscribe to our newsletter</h3>
+        <p>Cras pulvinar mattis nunc sed blandit.</p>
+        <form class="subscribe-form">
+            <input type="email" class="subscribe-input" placeholder="ENTER EMAIL" required>
+            <span class="section-label">SUBSCRIBE</span>
+            <button type="submit" class="simple_btn" aria-label="Send">
+                <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z"/>
+                    </svg>
+            </button>
+          </form>
+          
+          
     </section>
 
 </main>
 
     <!-- Footer -->
     <footer>
-        <div id="footer_logo_text">
-            <h3>Lopper</h3>
-            <p></p>
-        </div>
-        <div>
-            <h4>Menu</h4>
-            <nav>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <h4>Services</h4>
-            <nav>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <h4>Contact us</h4>
-            <article>
-                <img src="" alt="">
-                <p></p>
-            </article>
-            <article>                
-                <img src="" alt="">
-                <p></p>
-            </article>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+        <section>
+            <div id="footer_logo_text">
+                <h1>Lopper</h1>
+                <p>Eu augue ut lectus 
+                <br>arcu bibendum at.</p>
             </div>
-        </div>
+            <div>
+                <h4>Menu</h4>
+                <nav class="Footer_nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Serveces</li>
+                        <li>News</li>
+                        <li>Gallery</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <nav class="Footer_nav">
+                    <ul>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolor</li>
+                        <li>Sit Amet</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h4>Contact us</h4>
+                <article class="contacts">
+                    <img src="/assets/images/index/Footer/ContactUs/Mail.png" alt="">
+                    <p>contact@lop.com</p>
+                </article>
+                <article class="contacts">                
+                    <img src="/assets/images/index/Footer/ContactUs/Phone.png" alt="">
+                    <p>856 - 693 - 456</p>
+                </article>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <div id="social-networks">
+                    <img src="/assets/images/index/Footer/FollowUs/Twitter.png" alt="">
+                    <img src="/assets/images/index/Footer/FollowUs/Facebook.png" alt="">
+                    <img src="/assets/images/index/Footer/FollowUs/Instagram.png" alt="">
+                    <img src="/assets/images/index/Footer/FollowUs/YouTube.png" alt="">
+                    <img src="/assets/images/index/Footer/FollowUs/M.png" alt="">
+                </div>
+            </div>
+        </section>
         <span>© 2019 Lopper by mariuszdaniel. All right reserved.</span>
     </footer>
 </body>
