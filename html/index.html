@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/general.css">
     <title>Lopper</title>
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header id="home">
         <div class="navbar_block">
             <h1>Lopper</h1>
             <nav>
@@ -18,7 +19,7 @@
                     <li><a href="" id="active">Home</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Work</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
             <div class="header_phonenum">
@@ -27,7 +28,7 @@
             </div>
             <img src="/assets/images/index/Menu.png" alt="" id="menu">
         </div>
-        <section id="header_info">
+        <section class="header_info">
             <div class="Headline">
                     <p id="headline_tag">What we do?</p>
                     <h1>
@@ -35,8 +36,6 @@
                         <span class="accent">great business</span>
                     </h1>
             </div>
-            
-
             <aside class="side_scroll">
                 <span>Scroll to see more</span>
                 <button><svg width="8" height="28" viewBox="0 0 8 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +114,7 @@
                     <br>vitae congue mauris rhoncus aenean.</p>
                 </article>
             </div>
-            <div class="overlayed-image"></div>
+            <div class="overlayed-image"><img src="/assets/images/index/feature.png" alt=""></div>
         </div>
     </section>
 
@@ -196,15 +195,15 @@
         <p>Cras pulvinar mattis nunc sed blandit.</p>
         <form class="subscribe-form">
             <input type="email" class="subscribe-input" placeholder="ENTER EMAIL" required>
-            <span class="section-label">SUBSCRIBE</span>
-            <button type="submit" class="simple_btn" aria-label="Send">
-                <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z"/>
-                    </svg>
-            </button>
+            <div id="Subscribe_btn">
+                <span class="section-label">SUBSCRIBE</span>
+                <button type="submit" class="simple_btn" id="form_btn" aria-label="Send">
+                    <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.3536 4.35355C14.5488 4.15829 14.5488 3.84171 14.3536 3.64645L11.1716 0.464466C10.9763 0.269204 10.6597 0.269204 10.4645 0.464466C10.2692 0.659728 10.2692 0.976311 10.4645 1.17157L13.2929 4L10.4645 6.82843C10.2692 7.02369 10.2692 7.34027 10.4645 7.53553C10.6597 7.7308 10.9763 7.7308 11.1716 7.53553L14.3536 4.35355ZM0 4.5H14V3.5H0V4.5Z"/>
+                        </svg>
+                </button>
+            </div>
           </form>
-          
-          
     </section>
 
 </main>
