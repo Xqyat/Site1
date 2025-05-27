@@ -1,0 +1,80 @@
+.default::before {
+    background: url('/assets/images/team/header.jpg') center/cover no-repeat !important;
+    filter: grayscale(100%);
+}
+.Intro{
+    text-align: center;
+    margin-bottom: 250px;
+}
+.Intro p{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+.Team{
+    background-color: rgba(21, 4, 51, 1);
+    margin: 0px -100px;
+    padding: 0px 25% 25%;
+}
+
+
+.teammates{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+}
+
+.teammate {
+    margin-top: -7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+}
+
+.teammate h4, span{
+    font-weight: 800;
+}
+
+.teammate span{
+    font-weight: 700;
+    opacity: 0.3;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.teammate_icons{
+    margin-top: 0.5rem;
+    display: flex;
+    width: 90%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.teammate img {
+    max-width: 262px;
+    max-height: 262px;
+    object-fit: cover;
+}
+
+.mainimage_space{
+    margin-top: -150px;
+}
+
+
+#quote{
+    position: absolute;
+    left: 40%;
+    top: 280px !important;
+    height: auto;
+    z-index: 2;
+}
+
+
+.Testimonials_info {
+    margin-top: -100px !important;
+}

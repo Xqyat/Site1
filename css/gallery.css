@@ -1,0 +1,117 @@
+.default::before {
+    background: none !important;
+}
+
+.default::after {
+    background: none !important;
+}
+
+.default {
+    min-height: 0 !important;
+}
+
+.default .headline_tag {
+    color: rgba(48, 35, 61, 1) !important;
+}
+
+.Gallery {
+    margin: 0px -100px -9rem;
+}
+
+.Gallery_images{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.Gallery_images article {
+    position: relative; 
+    overflow: hidden; 
+    background-size: cover;  
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    color: rgb(255, 255, 255);
+    gap: 1rem;
+}
+
+.Gallery_images article h5 {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.Gallery_images article span {
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 10;
+}
+
+
+.purple_image::before,
+.turquoise_image::before,
+.pink_image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.purple_image::before {
+    background-color: rgba(94, 35, 157, 1); 
+}
+
+.turquoise_image::before {
+    background-color: rgba(0, 240, 181, 1); 
+}
+
+.pink_image::before {
+    background-color: rgba(246, 16, 103, 1);
+}
+
+.purple_image, .pink_image {
+    z-index: 1;
+    height: 774px;
+}
+
+.turquoise_image {
+    z-index: 2;
+    height: 828px;
+}
+
+
+#first_image{ 
+    grid-row: 1; grid-column: 1; 
+    background-image: url('/assets/images/gallery/Laptop.png');
+    transform: translateY(3.5rem);
+}
+#second_image{ 
+    grid-row: 1; grid-column: 2;
+    background-image: url('/assets/images/index/logos.png');
+    transform: translateY(3.5rem);
+}
+#third_image{ 
+    grid-row: 2; grid-column: 1/3;
+    background-image: url('/assets/images/gallery/Log.png');
+}
+#fourth_image{ 
+    grid-row: 3; grid-column: 1;
+    background-image: url('/assets/images/gallery/Fields.png');
+    transform: translateY(-6.9rem);
+}
+#fifth_image{ 
+    grid-row: 3; grid-column: 2;
+    background-image: url('/assets/images/gallery/Rocks.png');
+    transform: translateY(-3.5rem);
+}
+
+#Testimonials{
+    padding: 15rem 0 !important;
+}

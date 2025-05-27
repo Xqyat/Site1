@@ -1,18 +1,4 @@
-/* Intro */
 
-#Intro p{
-    font-size: 27px;
-}
-
-#directions{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-.direction span{
-    font-weight: 400;
-    color: #776C82;
-}
 
 /* Features */
 
@@ -88,39 +74,4 @@
     top: -174px;
 }
 
-/* Numbers */
-
-#Numbers{
-    margin-top: 100px;
-    text-align: center;
-}
-
-#Numbers_blocks{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.Numbers_block h1{
-    font-size: 95px;
-    margin-bottom: 0px;
-}
-
-.Numbers_block p{
-    margin-top: 0px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 15px;
-}
-
-#first_Numbers_block h1{
-    color: #F61067;
-}
-
-#second_Numbers_block h1{
-    color: #5E239D;
-}
-
-#third_Numbers_block h1{
-    color: #00F0B5;
-}
 

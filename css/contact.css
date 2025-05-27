@@ -1,0 +1,161 @@
+.default::before {
+    background: url('/assets/images/contact/header.png') center/cover no-repeat !important;
+}
+
+main { padding: 0px !important; }
+
+.Contact{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 12rem;
+}
+
+.Contact_info{
+    padding-top: 10rem;
+}
+
+.Contact_info h3{
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.bg_mark {
+    position: absolute;
+    width: 214px;
+    height: 286px;
+    opacity: 0.2;
+    left: -115px;
+}
+
+.Favicons {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.Favicons img {
+    padding-top: 1rem;
+    object-fit: contain;
+}
+
+.Contact_info p{
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.Contact_info span {
+    color: rgba(119, 108, 130, 1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pink_image::before {
+    content: '';
+    background-color: rgba(246, 16, 103, 1);
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.pink_image{
+    position: absolute;
+    width: 50%;
+    height: 1224px;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-image: url('/assets/images/contact/Contact_image.png');
+}
+
+.pink_image img {
+    
+    height: 1224px;
+    width: 720px;
+}
+
+.Contact-form {
+    position: relative;
+    background-color: rgba(48, 18, 78, 1);
+    color: white;
+    padding: 15%;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -200px;
+    z-index: 3;
+    background-color: rgba(21, 4, 51, 1);
+    padding: 6% 3%;
+    gap: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.whole_form {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.inputs_wrapper{
+    display: flex;
+    gap: 5rem;
+}
+
+form input {
+    width: 362px;
+    height: 54px;
+}
+
+form textarea {
+    width: 558px;
+    height: 234px;
+}
+
+.text-email {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-info {
+    gap: 1rem;
+}
+
+.form-info label {
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+form button {
+    background-color: rgba(246, 16, 103, 1);
+    width: 215px;
+    border-radius: 36px;
+    padding: 1.5rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+footer { background-color: rgba(48, 18, 78, 1) !important; }
