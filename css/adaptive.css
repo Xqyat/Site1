@@ -1,0 +1,277 @@
+
+@media (max-width: 1440px) {
+    #home {
+        padding: 60px 40px !important;
+    } 
+
+    #Features_content > div {
+        width: 72% !important;
+    }
+
+    #Logos {
+        padding-right: 100px !important;
+    }
+
+    #face1 {
+        grid-column: 3 !important;
+        grid-row: 5 !important;
+    }
+
+    #face2 {
+        grid-column: 3 !important;
+    }
+
+    #face4 {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+    }
+
+    #face5 {
+        grid-column: 1 !important;
+        grid-row: 3 !important;
+    }
+
+    #face6 {
+        grid-column: 1 !important;
+        grid-row: 4 !important;
+    }
+
+    #face7 {
+        grid-column: 1 !important;
+        grid-row: 6 !important;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .Subheader {
+        padding: 25px 60px !important;
+        justify-content: end !important;
+        width: 600px !important;
+    }
+
+    #Features_content > div {
+        width: 66% !important;
+    }
+
+    .directions {
+        justify-content: center !important;
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+
+    .navbar_block a {
+        margin: 10px !important;
+    }
+    .header_phonenum span {
+        font-size: 15px !important;
+        letter-spacing: 0;
+    }
+
+    #Logos {
+        padding-right: 50px !important;
+    }
+
+    footer {
+        padding: 80px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    #Features .section-label,  #Features .section-caption {
+        margin-left: -50px !important;
+    }
+    
+    #Features_content > div {
+        width: 59% !important;
+    }
+
+    #Logos {
+        padding: 0 !important;
+        align-items: center !important;
+    }
+
+    #Logos h5 {
+        text-align: center;
+    }
+
+    footer {
+        padding: 40px !important;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .navbar_block {
+        display: grid !important;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .navbar_block h1 {
+        grid-column: 1/3;
+    }
+
+    .navbar_block nav {
+        grid-column: 1/5;
+        grid-row: 2;
+    }
+
+    .header_phonenum {
+        grid-column: 3/6;
+        grid-row: 1;
+    }
+
+    .navbar_block img{
+        grid-column: 6;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #Intro{
+        margin-bottom: 20rem;
+    }
+
+    #Features .section-label{
+        display: inline-block;
+    }
+
+    #Features .section-label,  #Features .section-caption {
+        transform: translateY(-7rem) !important;
+    }
+
+    .Features_block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer section {
+        flex-wrap: wrap;
+    }
+
+    .Numbers_blocks {
+        flex-wrap: wrap;
+        gap: 2.5rem;
+    }
+
+    .Headline h1 {
+        font-size: 80px !important;
+    }
+}
+
+@media (max-width: 750px) {
+
+    #home,
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Subheader {
+        width: 580px !important;
+        padding: 15px 12px !important;
+        align-items: flex-start;
+    }
+
+    .Subheader span{
+        font-size: 13px !important;
+        margin-right: 25px !important;
+    }
+
+    .Subheader button {
+        padding: 10px !important;
+    }
+
+    #Features_content > div {
+        width: 44% !important;
+    }
+
+    #manyimages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #face1 { grid-column: 1 !important; grid-row: 4 !important; }
+    #face2 { grid-column: 2 !important; grid-row: 1/2 !important; }
+    #face3 { grid-column: 3 !important; grid-row: 3/4 !important; }
+
+
+
+    #face4 { grid-column: 1 !important; grid-row: 3/4 !important; }
+    #face5 { grid-column: 2 !important; grid-row: 2/3 !important; }
+    #face6 { grid-column: 3 !important; grid-row: 1 !important; }
+    #face7 { grid-column: 3 !important; grid-row: 4 !important; }
+
+    footer section {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+        gap: 10px !important;
+    }
+
+    .menu-wrapper {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .services-wrapper {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .contact-wrapper {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .follow-wrapper {
+        grid-column: 2;
+        grid-row: 3;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #home {
+        padding: 30px 10px !important;
+    } 
+
+    .Subheader {
+        width: 350px !important;
+        margin-left: -35px !important;
+    }
+
+    #clients {
+        gap: 20px 80px !important;
+    }
+
+    #Features_content > div {
+        width: 34% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar_block ul {
+        display:  block !important;
+    }
+
+    #First_faces, #Second_faces {
+        grid-template-columns: repeat(6, 1fr) !important;
+    }
+
+    #face1 { grid-column: 1/3 !important; grid-row: 4 !important; }
+    #face2 { grid-column: 2 !important; grid-row: 1/2 !important; }
+    #face3 { grid-column: 3 !important; grid-row: 3/4 !important; }
+
+
+
+    #face4 { grid-column: 1 !important; grid-row: 3/4 !important; }
+    #face5 { grid-column: 2 !important; grid-row: 2/3 !important; }
+    #face6 { grid-column: 3 !important; grid-row: 1 !important; }
+    #face7 { grid-column: 3 !important; grid-row: 4 !important; }
+}
