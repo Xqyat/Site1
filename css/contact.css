@@ -53,7 +53,7 @@ main { padding: 0px !important; }
     font-size: 18px;
 }
 
-.pink_image::before {
+.contact_image::before {
     content: '';
     background-color: rgba(246, 16, 103, 1);
     position: absolute;
@@ -63,7 +63,7 @@ main { padding: 0px !important; }
     mix-blend-mode: multiply;
 }
 
-.pink_image{
+.contact_image{
     position: absolute;
     width: 50%;
     height: 1224px;
@@ -74,17 +74,12 @@ main { padding: 0px !important; }
     background-image: url('/assets/images/contact/Contact_image.png');
 }
 
-.pink_image img {
-    
-    height: 1224px;
-    width: 720px;
-}
 
 .Contact-form {
     position: relative;
     background-color: rgba(48, 18, 78, 1);
     color: white;
-    padding: 15%;
+    padding: 288px;
 }
 
 .form-info {

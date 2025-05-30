@@ -9,195 +9,6 @@ body {
     padding: 0px;
 }
 
-/* Header home */
-
-#home::before {
-    top: 0;
-    left: 0;
-    z-index: -3;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    content: '';
-    background: url('/assets/images/index/header.png') center/cover no-repeat;
-    object-fit: cover;
-}
-
-#home {
-    background-color: transparent;
-    padding: 50px 160px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    min-height: 1200px;
-
-}
-
-#home::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    mix-blend-mode: multiply;
-    content: '';
-    background: linear-gradient(to right, rgb(86, 32, 143), 10%, rgba(196, 196, 196, 0));
-    background-color: rgba(94, 35, 157, 1);
-    z-index: -2;
-    width: 100%;
-    height: 100%;
-}
-
-.navbar_block {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    font-weight: 700;
-}
-
-.navbar_block ul {
-    display: flex;
-}
-
-.navbar_block a {
-    color: #D8CFE2;
-    margin: 0 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    display: inline-block;
-    transition: color 0.3s;
-}
-
-.navbar_block a::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 0;
-    background: #fff;
-    transition: 0.3s;
-    margin: auto;
-    border-radius: 1px;
-}
-
-.navbar_block a:hover::after {
-    width: 70%;
-}
-
-#active {
-    color: #ffffff;
-}
-
-#active::after {
-    width: 70%;
-}
-
-.navbar_block a:hover,
-.navbar_block a.active {
-    color: #ffffff;
-}
-
-.menu {
-    width: 40px;
-    height: 20px;
-}
-
-.header_phonenum {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.header_info {
-    margin-top: 170px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
-}
-
-.Headline #headline_tag {
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.Headline h1 {
-    font-size: 150px;
-    color: #fff;
-    font-weight: 900;
-    margin: 0;
-    line-height: 1.1;
-}
-
-.Headline .accent {
-    color: #ff3576;
-    font-weight: 900;
-}
-
-.Subheader {
-    align-self: start;
-    border: 1px solid rgba(252, 252, 252, 0.5);
-    padding: 52px 90px;
-    width: 1000px;
-    display: flex;
-    margin-top: 60px;
-    margin-left: -160px;
-    justify-content: center;
-    align-items: center;
-}
-
-.Subheader span {
-    text-align: right;
-    color: #ffffff;
-    font-size: 23px;
-    font-weight: 400;
-    margin-right: 100px;
-}
-
-.Subheader button {
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 20px;
-}
-
-.Subheader button svg {
-    width: 25px;
-    height: 15px;
-}
-
-.side_scroll {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 16px;
-    margin-top: 40px;
-}
-
-.side_scroll span {
-    writing-mode: vertical-rl;
-    color: #ffffff;
-    letter-spacing: 6px;
-    font-size: 23px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.side_scroll button {
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 10px 10px;
-}
-
-.side_scroll button svg {
-    width: 10px;
-    height: 40px;
-}
-
 /* Header default */
 
 .default::before {
@@ -209,6 +20,14 @@ body {
     content: '';
     background: url('/assets/images/about/default_header1.png') center/cover no-repeat;
     object-fit: cover;
+}
+
+.header_phonenum {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .default {
@@ -240,14 +59,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    width: 100%;
     font-weight: 700;
 }
 
 .default .navbar_block ul {
     display: flex;
     justify-content: space-between;
-    width: 50%;
 }
 
 .default .navbar_block a {
@@ -282,10 +99,13 @@ body {
     width: 70%;
 }
 
+.default .navbar_block svg {
+    fill: rgba(48, 18, 78, 1);;
+}
+
 
 .default .Headline {
-    margin-top: 100px;
-    margin-left: 160px;
+    padding: 7rem 0 0 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -310,7 +130,6 @@ body {
 }
 
 .default .Headline .accent {
-
     font-weight: 900;
 }
 

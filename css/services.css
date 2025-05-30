@@ -55,7 +55,18 @@
 .Text-img_block {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    height: 33%;
+    gap: 3rem;
+}
+
+.Text-img_block > div {
+    width: 80%;
+    height: 100%;
+}
+
+.Text-img_block img {
+    width: 80%;
+    height: 100%;
 }
 
 #Onright_img {
@@ -91,7 +102,7 @@
 }
 
 .mainimage_space{
-    margin-top: -150px;
+    margin-top: -130px;
 }
 
 #Elipse_img {
