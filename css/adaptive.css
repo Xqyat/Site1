@@ -450,6 +450,14 @@
 
 @media (max-width: 450px) {
 
+    #menu-toggle {
+        grid-column: 6;
+    }
+
+    .burger-icon {
+        grid-column: 6;
+    }
+
     .Headline h1 {
         font-size: 65px !important;
     }
@@ -468,7 +476,7 @@
         flex-wrap: wrap !important;
     }
 
-    .navbar_block ul li {
+    .desktop-menu ul li {
         width: 50%;
         text-align: left;
     }
