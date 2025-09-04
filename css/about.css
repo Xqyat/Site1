@@ -114,7 +114,7 @@
     position: absolute;
     background: 
     linear-gradient(to left, rgb(255, 255, 255) 50%, transparent),
-    url('/assets/images/index/logos.png') no-repeat;
+    url('assets/images/index/logos.png') no-repeat;
 }
 
 #Logos {

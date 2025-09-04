@@ -1,5 +1,5 @@
 .default::before {
-    background: url('/assets/images/index/header.png') center/cover no-repeat !important;
+    background: url('assets/images/index/header.png') center/cover no-repeat !important;
 }
 
 /* Services */

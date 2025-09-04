@@ -1,5 +1,5 @@
 .default::before {
-    background: url('/assets/images/contact/header.png') center/cover no-repeat !important;
+    background: url('assets/images/contact/header.png') center/cover no-repeat !important;
 }
 
 main { padding: 0px !important; }
@@ -71,7 +71,7 @@ main { padding: 0px !important; }
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    background-image: url('/assets/images/contact/Contact_image.png');
+    background-image: url('assets/images/contact/Contact_image.png');
 }
 
 

@@ -1,5 +1,5 @@
 .default::before {
-    background: url('/assets/images/team/header.jpg') center/cover no-repeat !important;
+    background: url('assets/images/team/header.jpg') center/cover no-repeat !important;
     filter: grayscale(100%);
 }
 .Intro{
